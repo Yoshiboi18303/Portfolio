@@ -1,0 +1,178 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+body {
+    background-color: #191a19;
+}
+
+.portfolio {
+    background-color: #282828;
+    width: 850px;
+    margin: 0 auto;
+    border: 6px solid #282828;
+    border-radius: 14px;
+}
+
+.name {
+    font-family: "Ubuntu", sans-serif;
+    font-weight: bolder;
+    text-align: left;
+    position: relative;
+    left: 7px;
+    color: #0e8f16;
+}
+
+.avatar {
+    display: block;
+    width: 128px;
+    height: 128px;
+    border: 2px solid #2c2d2c;
+    border-radius: 50%;
+    position: relative;
+    left: 7px;
+}
+
+.description {
+    font-family: "Work Sans", sans-serif;
+    text-align: left;
+    position: relative;
+    left: 7px;
+    color: white;
+}
+
+.buttons {
+    text-align: right;
+    float: right;
+}
+
+.btn {
+    font-family: "Source Code Pro", monospace;
+    text-decoration: none;
+    font-size: 17px;
+    margin: 5px;
+    padding: 5px;
+}
+
+.projects-btn {
+    border: 3px outset #f74545;
+    color: #f74545;
+    transition-duration: 0.52s;
+}
+
+.projects-btn:hover {
+    background-color: #f74545;
+    color: #5c0c0c;
+}
+
+.home-btn {
+    border: 3px outset #4945f7;
+    color: #4945f7;
+    transition-duration: 0.52s;
+}
+
+.home-btn:hover {
+    background-color: #4945f7;
+    color: #0c155c;
+}
+
+.favorites-btn {
+    border: 3px outset #13a018;
+    color: #13a018;
+    transition-duration: 0.52s;
+}
+
+.favorites-btn:hover {
+    background-color: #13a018;
+    color: #0e6711;
+}
+
+.bot-avatar {
+    display: block;
+    width: 128px;
+    height: 128px;
+    border: 2px solid #2c2d2c;
+    border-radius: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.bot, .favorite-divider {
+    background-color: #595a59;
+    margin: 0 auto;
+    width: 500px;
+    border: 2px solid #595a59;
+    border-radius: 8px;
+}
+
+.divider {
+    width: 250px;
+    margin: 0 auto;
+}
+
+.bot-name {
+    font-family: "Ubuntu", sans-serif;
+    color: #0c9612;
+}
+
+.bot-description {
+    font-family: "Work Sans", sans-serif;
+    color: white;
+}
+
+.bot-buttons {
+    font-family: "Source Code Pro", monospace;
+}
+
+.bot-btn {
+    text-decoration: none;
+}
+
+.discord-btn {
+    border: 5px inset #7289da;
+    color: #7289da;
+    transition-duration: 0.52s;
+}
+
+.discord-btn:hover {
+    background-color: #7289da;
+    color: grey;
+}
+
+.favorite-title {
+    font-family: "Ubuntu", sans-serif;
+    color: #12347b;
+}
+
+.favorite {
+    font-family: "Roboto Mono", monospace;
+    color: #1bbd16;
+    font-size: 19.6px;
+}
+
+a.inline-link {
+    text-decoration: none;
+    color: white;
+}
+
+a.inline-link:hover {
+    text-decoration: underline;
+}
+
+.npm-btn {
+    border: 5px inset #cc0001;
+    color: #cc0001;
+    transition-duration: 0.52s;
+}
+
+.npm-btn:hover {
+    background-color: #cc0001;
+    color: #840001;
+}
