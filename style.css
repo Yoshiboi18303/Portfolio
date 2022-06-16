@@ -94,6 +94,17 @@ body {
     color: #0e6711;
 }
 
+.info-btn {
+    border: 3px outset #0e5fcb;
+    color: #0e5fcb;
+    transition-duration: 0.52s;
+}
+
+.info-btn:hover {
+    background-color: #0e5fcb;
+    color: white;
+}
+
 .bot-avatar {
     display: block;
     width: 128px;
@@ -175,4 +186,48 @@ a.inline-link:hover {
 .npm-btn:hover {
     background-color: #cc0001;
     color: #840001;
+}
+
+.logo {
+    display: block;
+    width: 128px;
+    height: 128px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.info {
+    width: 250px;
+    border: 7.5px solid black;
+    display: inline-block;
+    margin: 0 auto;
+}
+
+.skill-text {
+    color: white;
+    font-family: "Work Sans", sans-serif;
+}
+
+.skill-entrance {
+    color: white;
+    font-family: "Roboto Mono", monospace;
+}
+
+.information-view {
+    background-color: #3a3a3a;
+    width: 750px;
+    margin: 0 auto;
+    border: 3px solid #3a3a3a;
+    border-radius: 15px;
+}
+
+.github-btn {
+    border: 6px outset white;
+    color: white;
+    transition-duration: 0.52s;
+}
+
+.github-btn:hover {
+    background-color: white;
+    color: black;
 }
