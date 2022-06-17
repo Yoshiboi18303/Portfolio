@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="Yoshiboi18303, Portfolio, HTML Portfolio, HTML">
+    <meta name="title" content="Portfolio">
+    <meta name="description" content="My official portfolio!">
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="Everything you need to know about me!">
+    <meta name="twitter:description" content="View my official portfolio!">
+    <meta name="twitter:site" content="@Yoshi_Brid">
+    <title>Contact - Portfolio</title>
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="images/icon.png" type="image/png">
+</head>
+<body>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <div class="portfolio">
+        <br>
+        <img src="images/icon.png" alt="My Icon" class="avatar">
+        <br>
+        <h1 class="name">Contact Me</h1>
+        <br>
+        <h3 class="description">Got anything to ask me? Feel free to contact me!</h3>
+        <br>
+        <br>
+        <div class="form-divider">
+            <br>
+            <h2 class="entrance">Email</h2>
+            <br>
+            <br>
+            <form id="email-form">
+                <label for="name">Name:</label>
+                <input type="text" id="name" class="email-form-text-input" required>
+                <br>
+                <br>
+                <label for="subject">Subject:</label>
+                <input type="text" id="subject" class="email-form-text-input" required>
+                <br>
+                <br>
+                <br>
+                <hr class="divider">
+                <br>
+                <br>
+                <label for="body">Message:</label>
+                <br>
+                <br>
+                <textarea name="Email Body" id="body" cols="30" rows="10" required></textarea>
+                <br>
+                <br>
+                <input type="submit" value="Send Email" class="submit">
+            </form>
+            <br>
+        </div>
+        <br>
+        <br>
+        <div class="links-divider">
+            <br>
+            <h2 class="entrance">Links</h2>
+            <br>
+            <br>
+            <hr class="divider">
+            <br>
+            <br>
+            <a href="https://discord.com/users/697414293712273408" class="link discord" target="_blank">Discord</a>
+            <a href="https://github.com/Yoshiboi18303" class="link github" target="_blank">GitHub</a>
+            <a href="https://twitter.com/Yoshi_Brid" class="link twitter" target="_blank">Twitter</a>
+            <a href="https://twitch.tv/yoshiboi18303" class="link twitch" target="_blank">Twitch</a>
+            <br>
+            <br>
+            <br>
+        </div>
+        <br>
+        <br>
+        <div class="links">
+            <a class="btn home-btn" href="index.html">Home</a>
+            <a class="btn small-github-btn" href="https://github.com/Yoshiboi18303/Portfolio/blob/main/contact.html" target="_blank">Source Code</a>
+        </div>
+        <br>
+    </div>
+</body>
+<script>
+    var form = $("#email-form")
+
+    form.submit(() => {
+        var username = $("#name").val()
+        var subject = $("#subject").val()
+        var body = $("#body").val()
+
+        var subjectString = `${username} - ${subject}`
+
+        location.href = `mailto:yoshiboi18303.t@gmail.com?subject=${subjectString}&body=${body}`
+    })
+</script>
+</html>
