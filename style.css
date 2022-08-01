@@ -419,3 +419,14 @@ code {
     background-color: #ff0000;
     color: #ac0606;
 }
+
+.recoded-website-btn {
+    border: 3px outset #d80947;
+    color: #d80947;
+    transition-duration: 0.52s;
+}
+
+.recoded-website-btn:hover {
+    background-color: #d80947;
+    color: white;
+}
