@@ -1,432 +1,463 @@
-@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@600&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@500&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap");
 
 * {
-    margin: 0;
-    padding: 0;
-    text-align: center;
+  margin: 0;
+  padding: 0;
+  text-align: center;
 }
 
 body {
-    background-color: #191a19;
+  background-color: #191a19;
 }
 
 .portfolio {
-    background-color: #282828;
-    width: 850px;
-    margin: 0 auto;
-    border: 6px solid #282828;
-    border-radius: 14px;
+  background-color: #282828;
+  width: 850px;
+  margin: 0 auto;
+  border: 6px solid #282828;
+  border-radius: 14px;
 }
 
 .name {
-    font-family: "Ubuntu", sans-serif;
-    font-weight: bolder;
-    text-align: left;
-    position: relative;
-    left: 7px;
-    color: #0e8f16;
+  font-family: "Ubuntu", sans-serif;
+  font-weight: bolder;
+  text-align: left;
+  position: relative;
+  left: 7px;
+  color: #0e8f16;
 }
 
 .avatar {
-    display: block;
-    width: 128px;
-    height: 128px;
-    border: 2px solid #2c2d2c;
-    border-radius: 50%;
-    position: relative;
-    left: 7px;
+  display: block;
+  width: 128px;
+  height: 128px;
+  border: 2px solid #2c2d2c;
+  border-radius: 50%;
+  position: relative;
+  left: 7px;
 }
 
 .description {
-    font-family: "Work Sans", sans-serif;
-    text-align: left;
-    position: relative;
-    left: 7px;
-    color: white;
+  font-family: "Work Sans", sans-serif;
+  text-align: left;
+  position: relative;
+  left: 7px;
+  color: white;
 }
 
 .buttons {
-    text-align: right;
-    float: right;
+  text-align: right;
+  float: right;
 }
 
 .btn {
-    font-family: "Source Code Pro", monospace;
-    text-decoration: none;
-    font-size: 17px;
-    margin: 5px;
-    padding: 5px;
+  font-family: "Source Code Pro", monospace;
+  text-decoration: none;
+  font-size: 17px;
+  margin: 5px;
+  padding: 5px;
 }
 
 .projects-btn {
-    border: 3px outset #f74545;
-    color: #f74545;
-    transition-duration: 0.52s;
+  border: 3px outset #f74545;
+  color: #f74545;
+  transition-duration: 0.52s;
 }
 
 .projects-btn:hover {
-    background-color: #f74545;
-    color: #5c0c0c;
+  background-color: #f74545;
+  color: #5c0c0c;
 }
 
 .home-btn {
-    border: 3px outset #4945f7;
-    color: #4945f7;
-    transition-duration: 0.52s;
+  border: 3px outset #4945f7;
+  color: #4945f7;
+  transition-duration: 0.52s;
 }
 
 .home-btn:hover {
-    background-color: #4945f7;
-    color: #0c155c;
+  background-color: #4945f7;
+  color: #0c155c;
 }
 
 .favorites-btn {
-    border: 3px outset #13a018;
-    color: #13a018;
-    transition-duration: 0.52s;
+  border: 3px outset #13a018;
+  color: #13a018;
+  transition-duration: 0.52s;
 }
 
 .favorites-btn:hover {
-    background-color: #13a018;
-    color: #0e6711;
+  background-color: #13a018;
+  color: #0e6711;
 }
 
 .info-btn {
-    border: 3px outset #0e5fcb;
-    color: #0e5fcb;
-    transition-duration: 0.52s;
+  border: 3px outset #0e5fcb;
+  color: #0e5fcb;
+  transition-duration: 0.52s;
 }
 
 .info-btn:hover {
-    background-color: #0e5fcb;
-    color: white;
+  background-color: #0e5fcb;
+  color: white;
 }
 
 .bot-avatar {
-    display: block;
-    width: 128px;
-    height: 128px;
-    border: 5px solid #2c2d2c;
-    border-radius: 50%;
-    margin-left: auto;
-    margin-right: auto;
+  display: block;
+  width: 128px;
+  height: 128px;
+  border: 5px solid #2c2d2c;
+  border-radius: 50%;
+  margin-left: auto;
+  margin-right: auto;
 }
 
-.bot, .favorite-divider {
-    background-color: #595a59;
-    margin: 0 auto;
-    width: 500px;
-    border: 2px solid #595a59;
-    border-radius: 8px;
+.bot,
+.favorite-divider {
+  background-color: #595a59;
+  margin: 0 auto;
+  width: 500px;
+  border: 2px solid #595a59;
+  border-radius: 8px;
 }
 
 .divider {
-    width: 250px;
-    margin: 0 auto;
+  width: 250px;
+  margin: 0 auto;
 }
 
 .bot-name {
-    font-family: "Ubuntu", sans-serif;
-    color: #0c9612;
+  font-family: "Ubuntu", sans-serif;
+  color: #0c9612;
 }
 
 .bot-description {
-    font-family: "Work Sans", sans-serif;
-    color: white;
+  font-family: "Work Sans", sans-serif;
+  color: white;
 }
 
 .bot-buttons {
-    font-family: "Source Code Pro", monospace;
+  font-family: "Source Code Pro", monospace;
 }
 
 .bot-btn {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 .discord-btn {
-    border: 5px inset #7289da;
-    color: #7289da;
-    transition-duration: 0.52s;
+  border: 5px inset #7289da;
+  color: #7289da;
+  transition-duration: 0.52s;
 }
 
 .discord-btn:hover {
-    background-color: #7289da;
-    color: grey;
+  background-color: #7289da;
+  color: grey;
 }
 
 .favorite-title {
-    font-family: "Ubuntu", sans-serif;
-    color: #12347b;
+  font-family: "Ubuntu", sans-serif;
+  color: #12347b;
 }
 
 .favorite {
-    font-family: "Roboto Mono", monospace;
-    color: #1bbd16;
-    font-size: 19.6px;
+  font-family: "Roboto Mono", monospace;
+  color: #1bbd16;
+  font-size: 19.6px;
 }
 
 a.inline-link {
-    text-decoration: none;
-    color: white;
+  text-decoration: none;
+  color: white;
 }
 
 a.inline-link:hover {
-    text-decoration: underline;
+  text-decoration: underline;
 }
 
 .npm-btn {
-    border: 5px inset #cc0001;
-    color: #cc0001;
-    transition-duration: 0.52s;
+  border: 5px inset #cc0001;
+  color: #cc0001;
+  transition-duration: 0.52s;
 }
 
 .npm-btn:hover {
-    background-color: #cc0001;
-    color: #840001;
+  background-color: #cc0001;
+  color: #840001;
 }
 
 .logo {
-    display: block;
-    width: 128px;
-    height: 128px;
-    margin-left: auto;
-    margin-right: auto;
+  display: block;
+  width: 128px;
+  height: 128px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .info {
-    width: 250px;
-    border: 7.5px solid black;
-    display: inline-block;
-    margin: 0 auto;
+  width: 250px;
+  border: 7.5px solid black;
+  display: inline-block;
+  margin: 0 auto;
 }
 
 .skill-text {
-    color: white;
-    font-family: "Work Sans", sans-serif;
+  color: white;
+  font-family: "Work Sans", sans-serif;
 }
 
 .skill-entrance {
-    color: white;
-    font-family: "Roboto Mono", monospace;
+  color: white;
+  font-family: "Roboto Mono", monospace;
 }
 
 .information-view {
-    background-color: #3a3a3a;
-    width: 750px;
-    margin: 0 auto;
-    border: 3px solid #3a3a3a;
-    border-radius: 15px;
+  background-color: #3a3a3a;
+  width: 750px;
+  margin: 0 auto;
+  border: 3px solid #3a3a3a;
+  border-radius: 15px;
 }
 
 .github-btn {
-    border: 6px outset white;
-    color: white;
-    transition-duration: 0.52s;
+  border: 6px outset white;
+  color: white;
+  transition-duration: 0.52s;
 }
 
-.github-btn:hover, .small-github-btn:hover {
-    background-color: white;
-    color: black;
+.github-btn:hover,
+.small-github-btn:hover {
+  background-color: white;
+  color: black;
 }
 
 .small-github-btn {
-    border: 3px outset white;
-    color: white;
-    transition-duration: 0.52s;
+  border: 3px outset white;
+  color: white;
+  transition-duration: 0.52s;
 }
 
 .low-opacity {
-    color: white;
-    opacity: 0.09;
+  color: white;
+  opacity: 0.09;
 }
 
 .contact-btn {
-    border: 3px outset #6900ff;
-    color: #6900ff;
-    transition-duration: 0.52s;
+  border: 3px outset #6900ff;
+  color: #6900ff;
+  transition-duration: 0.52s;
 }
 
 .contact-btn:hover {
-    background-color: #6900ff;
-    color: #47099e;
+  background-color: #6900ff;
+  color: #47099e;
 }
 
-.form-divider, .links-divider, .rules {
-    background-color: #404040;
-    border: 3px solid #404040;
-    border-radius: 15px;
-    margin: 0 auto;
-    width: 600px;
+.form-divider,
+.links-divider,
+.rules {
+  background-color: #404040;
+  border: 3px solid #404040;
+  border-radius: 15px;
+  margin: 0 auto;
+  width: 600px;
 }
 
 label {
-    font-family: "Source Code Pro", monospace;
-    color: white;
-    font-size: 18.7px;
+  font-family: "Source Code Pro", monospace;
+  color: white;
+  font-size: 18.7px;
 }
 
 input.email-form-text-input {
-    width: 250px;
-    height: 40px;
-    font-family: "Roboto Mono", monospace;
+  width: 250px;
+  height: 40px;
+  font-family: "Roboto Mono", monospace;
 }
 
 .entrance {
-    font-family: "Ubuntu", sans-serif;
-    font-size: 24.5px;
-    color: white;
+  font-family: "Ubuntu", sans-serif;
+  font-size: 24.5px;
+  color: white;
 }
 
 .submit {
-    border: 5px outset #1daf15;
-    border-radius: 8px;
-    font-family: "Work Sans", sans-serif;
-    font-size: 20px;
-    background-color: #404040;
-    color: white;
-    transition-duration: 0.52s;
+  border: 5px outset #1daf15;
+  border-radius: 8px;
+  font-family: "Work Sans", sans-serif;
+  font-size: 20px;
+  background-color: #404040;
+  color: white;
+  transition-duration: 0.52s;
 }
 
 .submit:hover {
-    background-color: #1daf15;
-    color: black;
-    cursor: pointer;
+  background-color: #1daf15;
+  color: black;
+  cursor: pointer;
 }
 
 .link {
-    font-family: "Work Sans", sans-serif;
-    text-decoration: none;
-    transition-duration: 0.52s;
-    font-size: 20.2px;
+  font-family: "Work Sans", sans-serif;
+  text-decoration: none;
+  transition-duration: 0.52s;
+  font-size: 20.2px;
 }
 
 .discord {
-    border: 5px outset #7289da;
-    color: #7289da;
+  border: 5px outset #7289da;
+  color: #7289da;
 }
 
 .discord:hover {
-    background-color: #7289da;
-    color: white;
+  background-color: #7289da;
+  color: white;
 }
 
 .github {
-    border: 5px outset white;
-    color: white;
+  border: 5px outset white;
+  color: white;
 }
 
 .github:hover {
-    background-color: white;
-    color: black;
+  background-color: white;
+  color: black;
 }
 
 .twitter {
-    border: 5px outset #55adee;
-    color: #55adee;
+  border: 5px outset #55adee;
+  color: #55adee;
 }
 
 .twitter:hover {
-    background-color: #55adee;
-    color: white;
+  background-color: #55adee;
+  color: white;
 }
 
 .twitch {
-    border: 5px outset #6441a5;
-    color: #6441a5;
+  border: 5px outset #6441a5;
+  color: #6441a5;
 }
 
 .twitch:hover {
-    background-color: #6441a5;
-    color: white;
+  background-color: #6441a5;
+  color: white;
 }
 
 small {
-    font-family: "Work Sans", sans-serif;
-    font-size: 15px;
-    color: white;
+  font-family: "Work Sans", sans-serif;
+  font-size: 15px;
+  color: white;
 }
 
 small > a.link {
-    font-family: "Work Sans", sans-serif;
-    font-size: 15px;
-    color: white;
+  font-family: "Work Sans", sans-serif;
+  font-size: 15px;
+  color: white;
 }
 
 small > a.link:hover {
-    text-decoration: underline;
+  text-decoration: underline;
 }
 
 .rule-number {
-    color: white;
-    font-family: "Source Code Pro", monospace;
+  color: white;
+  font-family: "Source Code Pro", monospace;
 }
 
 .rule {
-    font-family: "Roboto Mono", monospace;
-    color: darkgrey;
+  font-family: "Roboto Mono", monospace;
+  color: darkgrey;
 }
 
 video {
-    border: 4px solid white;
-    border-radius: 8px;
+  border: 4px solid white;
+  border-radius: 8px;
 }
 
 .tldr-btn {
-    border: 4px outset #0e6711;
-    color: #0e6711;
-    transition-duration: 0.52s;
-    opacity: 0;
+  border: 4px outset #0e6711;
+  color: #0e6711;
+  transition-duration: 0.52s;
+  opacity: 0;
 }
 
 .tldr-btn:hover {
-    background-color: #0e6711;
-    color: #13a018;
+  background-color: #0e6711;
+  color: #13a018;
 }
 
 p.tldr#tldr {
-    font-family: "Kdam Thmor Pro", sans-serif;
-    font-size: 17.5px;
-    color: #1daf15;
+  font-family: "Kdam Thmor Pro", sans-serif;
+  font-size: 17.5px;
+  color: #1daf15;
 }
 
 .about-btn {
-    border: 3px outset #eba30f;
-    color: #eba30f;
-    transition-duration: 0.52s;
+  border: 3px outset #eba30f;
+  color: #eba30f;
+  transition-duration: 0.52s;
 }
 
 .about-btn:hover {
-    background-color: #eba30f;
-    color: #c9890a;
+  background-color: #eba30f;
+  color: #c9890a;
 }
 
 code {
-    font-family: "Source Code Pro", monospace;
-    background-color: #303030;
+  font-family: "Source Code Pro", monospace;
+  background-color: #303030;
 }
 
 .leave-btn {
-    border: 3px outset #ff0000;
-    color: #ff0000;
-    transition-duration: 0.52s;
+  border: 3px outset #ff0000;
+  color: #ff0000;
+  transition-duration: 0.52s;
 }
 
 .leave-btn:hover {
-    background-color: #ff0000;
-    color: #ac0606;
+  background-color: #ff0000;
+  color: #ac0606;
 }
 
 .recoded-website-btn {
-    border: 3px outset #d80947;
-    color: #d80947;
-    transition-duration: 0.52s;
+  border: 3px outset #d80947;
+  color: #d80947;
+  transition-duration: 0.52s;
 }
 
 .recoded-website-btn:hover {
-    background-color: #d80947;
-    color: white;
+  background-color: #d80947;
+  color: white;
+}
+
+.videos-btn {
+  border: 3px outset #b10c9b;
+  color: #b10c9b;
+  transition-duration: 0.52s;
+}
+
+.videos-btn:hover {
+  background-color: #b10c9b;
+  color: white;
+}
+
+h2 {
+  font-family: "Ubuntu", sans-serif;
+  color: #18c712;
+}
+
+h3.video-description {
+  font-family: "Kdam Thmor Pro", sans-serif;
+  color: #0dcf1d;
+}
+
+h5.game-name {
+  font-family: "Source Code Pro", monospace;
+  color: white;
+  font-size: 115%;
 }
